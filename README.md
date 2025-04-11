@@ -1,6 +1,7 @@
 # AI Support Email Triage Agent (AI Bot for incoming emails)
 
 ##  Overview
+## For the impatient: look at the /src/ folder
 
 This project implements an intelligent AI agent designed to monitor high-volume support email inboxes (e.g., `support@example.com`). The agent automatically triages incoming messages based on their content, and routes them to the appropriate internal teams for timely response/action. This significantly streamlines the support workflow, reduces manual effort, and improves response times.
 
@@ -53,9 +54,9 @@ The primary goals of this project are:
 
 This project aims for flexibility and learning cloud provider differences by targeting deployment across multiple cloud providers:
 
-*   **Google Cloud Platform (GCP):** Deployment steps and configuration specific to GCP services (e.g., Cloud Functions, Vertex, AI Platform).
-*   **AWS SageMaker:** Integration and deployment leveraging AWS SageMaker for hosting the AI model and potentially other components (e.g., Lambda).
-*   **Azure AI:** Deployment within the Microsoft Azure ecosystem using Azure AI services (e.g., Azure Functions, Azure Cognitive Search ).
+*   **Google Cloud Platform (GCP):** Deployment steps and configuration specific to GCP services (e.g., Cloud Functions, Vertex, AI Platform). See /src/gcp/
+*   **AWS SageMaker:** Integration and deployment leveraging AWS SageMaker for hosting the AI model and potentially other components (e.g., Lambda). See /src/aws/
+*   **Azure AI:** Deployment within the Microsoft Azure ecosystem using Azure AI services (e.g., Azure Functions, Azure Cognitive Search ). See /src/azure/
 
 *(Detailed deployment guides for each platform will be added as they are developed.)*
 
