@@ -1,8 +1,8 @@
-# AI Support Email Triage Agent
+# AI Support Email Triage Agent (AI Bot for incoming emails)
 
 ##  Overview
 
-This project implements an intelligent AI agent designed to monitor high-volume support email inboxes (e.g., `support@example.com`). The agent automatically triages incoming messages based on their content and routes them to the appropriate internal teams for timely action or response. This significantly streamlines the support workflow, reduces manual effort, and improves response times.
+This project implements an intelligent AI agent designed to monitor high-volume support email inboxes (e.g., `support@example.com`). The agent automatically triages incoming messages based on their content, and routes them to the appropriate internal teams for timely response/action. This significantly streamlines the support workflow, reduces manual effort, and improves response times.
 
 ##  Key Features
 
@@ -47,19 +47,19 @@ The primary goals of this project are:
 2.   **Agent Retrieval:** The AI Agent fetches the new email.
 3.   **Content Analysis:** Langchain processes the email content, leveraging memory and Q&A capabilities for context and classification.
 4.   **Triage Decision:** The Agent determines the appropriate team, category, or required action based on the analysis.
-5.  ➡ **Routing:** The Agent forwards the email, relevant details, or a task notification to the designated team/system via API calls or other configured integrations.
+5.   **Routing:** The Agent forwards the email, relevant details, or a task notification to the designated team/system via API calls or other configured integrations.
 
 ## ☁️ Deployment Strategy
 
-This project aims for flexibility and learning by targeting deployment across multiple major cloud providers:
+This project aims for flexibility and learning cloud provider differences by targeting deployment across multiple cloud providers:
 
-*   **Google Cloud Platform (GCP):** Deployment steps and configuration specific to GCP services (e.g., Cloud Functions, AI Platform, GKE).
-*   **AWS SageMaker:** Integration and deployment leveraging AWS SageMaker for hosting the AI model and potentially other components (e.g., Lambda, API Gateway).
-*   **Azure AI:** Deployment within the Microsoft Azure ecosystem using Azure AI services (e.g., Azure Functions, Azure Machine Learning).
+*   **Google Cloud Platform (GCP):** Deployment steps and configuration specific to GCP services (e.g., Cloud Functions, Vertex, AI Platform).
+*   **AWS SageMaker:** Integration and deployment leveraging AWS SageMaker for hosting the AI model and potentially other components (e.g., Lambda).
+*   **Azure AI:** Deployment within the Microsoft Azure ecosystem using Azure AI services (e.g., Azure Functions, Azure Cognitive Search ).
 
 *(Detailed deployment guides for each platform will be added as they are developed.)*
 
-## 🏁 Getting Started
+##  Getting Started
 
 *(Prerequisites and setup instructions will be added below once the initial codebase is available.)*
 
